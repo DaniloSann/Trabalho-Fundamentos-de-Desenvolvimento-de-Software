@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:  aliceblue; /*Ítem obrigatório para dar uma cor suave ao fundo da página*/
+}
+
+.box{
+    width: 100%;
+    max-width: 400px; 
+    margin: 40px auto; 
+    height: auto;
+    display: block;
+    background-color: rgb(158, 210, 255);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #ffffff; /*Ítem obrigatório para dar uma cor diferente ao título da página*/
+}
+
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: larger; /*Ítem obrigatório para dar um tamanho maior ao parágrafo*/
+}
+
+.tituloh2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+ul li{       
+    margin-bottom: 10px; /*Ítem obrigatório para criar espaçamento entre os ítens*/
+}
+
+
+.imagemLista{
+    width: 50%; /*Ítem obrigatório para dar tamanho adequado às imagens*/
+    border-radius: 5px; /*Ítem obrigatório para dar borda arredondada às imagens*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);    
+    transition: 0.3s ease; 
+
+}
+.imagemLista:hover{
+    width: 100%;
+}
+.tabela{ /*Ítem obrigatório para estilização da tabela*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;        
+    border-collapse: collapse;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+th, td {
+      border: 1px solid #aaa;
+      padding: 10px;
+}
+.linkExterno{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #0077cc;
+    font-size: 18px;
+    transition: 0.3s ease; /*Ítem obrigatório para mudar a cor do link quando o usuário passar o mouse sobre ele*/ 
+}
+
+ a:hover { /*Ítem obrigatório para mudar a cor do link quando o usuário passar o mouse sobre ele*/
+    color: #ff6600;       
+    font-size: 22px;      
+}
+
+button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: teal;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+}
+
+button:hover {
+    background-color: darkcyan;
+}

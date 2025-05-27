@@ -10,5 +10,6 @@ Além da construção da página, será necessário criar um repositório no Git
 - CSS
 - JavaScript
 ## Como visualizar a página
-- A página desenvolvida está hospedada no link abaixo:
+- A página desenvolvida está hospedada nos links abaixo:
  - https://trabalho01-fundamentos-de-software.netlify.app/
+ - https://danilosann.github.io/Trabalho-Fundamentos-de-Desenvolvimento-de-Software/
